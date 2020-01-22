@@ -1,0 +1,55 @@
+body{
+    background-image: url('../images/bg.jpg');
+    /* Faz o background caber na tela */
+    background-size: cover; 
+    /* Compatibilidade da imagem com todos os browsers */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+    width: 30%;
+    border: 6px solid white;
+}
+.text{
+    font-size: 30px;
+}
+/* Alterar cor, retirar sublinhado e aumentar a fonte dos links */
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* O hover é ação para quando o mouse passa por cima */
+.link:hover{
+    color:red;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Colocar espaço entre os elementos */
+.space{
+    margin-right: 30px;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color:black;
+    background-color:greenyellow;
+    border-color:greenyellow;
+    border-radius: .25rem;
+    text-decoration: none;
+}
+.btn:hover{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color:black;
+    background-color: red;
+    border-color:red;
+    border-radius: .25rem;
+    text-decoration: none;
+}
