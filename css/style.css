@@ -1,5 +1,8 @@
+html{
+    height: 100%;
+}
 body{
-    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background: url('../images/bg.jpg');
     /* Faz o background caber na tela */
     background-size: cover; 
     /* Compatibilidade da imagem com todos os browsers */
@@ -8,6 +11,7 @@ body{
     -o-background-size: cover;
     color: white;
     text-align: center;
+    height: 100%;
 }
 .profile{
     border-radius: 50%;
