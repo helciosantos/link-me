@@ -37,7 +37,7 @@ header{
 }
 /* O hover é ação para quando o mouse passa por cima */
 .link:hover{
-    color:red;
+    color:darkblue;
     text-decoration: none;
     font-size: 20px;
 }
@@ -47,4 +47,10 @@ header{
 }
 .space-top{
     padding-top: 25px;
+}
+.space-margin{
+    margin-bottom: 10px;
+}
+.title-green{
+    color: darkgreen;
 }
