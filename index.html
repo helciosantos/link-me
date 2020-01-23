@@ -12,17 +12,21 @@
         <!-- Link para utilizar o css do bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     </head>
     <body >
         <header>
             <div class="container">
                 <figure class="space-top">
-                    <img class="profile" src="images/profile.jpg" alt="Desenvolvedor Hélcio Lopes">
+                    <a class="link" href="https://www.instagram.com/helciolopes/" target="_blank">
+                    <img class="profile" src="images/profile.jpg" alt="Desenvolvedor Hélcio Lopes"></a>
                     <!-- legenda da imagem -->
                     <figcaption><b><a class="link" href="https://www.instagram.com/helciolopes/" 
                     target="_blank"><i class="fab fa-instagram"></i> @helciolopes</a></b></figcaption>
                 </figure>
-                <p class="text"><b></b> Quase um Engenheiro Mecatrônico, Desenvolvedor Web & Mobile</p>
+                <div>
+                    <p class="text background-title"><b>Quase um Engenheiro Mecatrônico, Desenvolvedor Web & Mobile</b></p>
+                </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-12 space">
                         <a class="btn btn-success btn-block" href="https://api.whatsapp.com/send?phone=5571992711132&text=Ol%C3%A1%21&source=&data=" 
@@ -50,7 +54,7 @@
             <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title title-green" id="exampleModalLabel">Digite sua mensage.</h5>
+                <h5 class="modal-title title-green" id="exampleModalLabel"><b>Digite sua mensagem</b></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -60,7 +64,7 @@
                     <textarea class="form-control" id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-success btn-block" data-dismiss="modal" onclick="enviar()">Enviar</button>
+                <button type="button" class="btn btn-success btn-block" data-dismiss="modal" onclick="enviar()"><b>Enviar</b></button>
                 </div>
             </div>
             </div>
